@@ -1,0 +1,53 @@
+﻿using API_Day2.Context;
+using API_Day2.DTOs;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+
+namespace API_Day2.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class DepartmentController : ControllerBase
+    {
+        public ApplicationDbContext _dbContext;
+        public DepartmentController(ApplicationDbContext dbContext)
+        {
+            
+            _dbContext = dbContext;
+        }
+        // GET: api/Department using Customize Serialization
+        [HttpGet("Customize Serialization")]
+        public async Task<IActionResult> GetDepartments1()
+        {
+            var departments = await _dbContext.Departments
+                .Select(d => new
+                {
+                    d.Name,
+                    NumberOfCourses = d.Courses.Count
+                }).ToListAsync();
+
+            if (departments == null || !departments.Any())
+            {                 
+                return NotFound("No departments found.");
+            }
+
+            return Ok(departments);
+        }
+        // GET: api/Department using IncludeDto
+        [HttpGet("Using Dto")]
+        public async Task<IActionResult> GetDepartments2()
+        {
+            var departments = await _dbContext.Departments.Include(d => d.Courses)
+                .Select(d => new DepartmentDto { 
+                    Name = d.Name,
+                    NumberOfCourses = d.Courses.Count
+                }).ToListAsync();
+
+            if (departments == null || !departments.Any())
+            {
+                return NotFound("No departments found.");
+            }
+            return Ok(departments);
+        }
+    }
+}
