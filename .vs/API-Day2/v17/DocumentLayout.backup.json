@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Ahmed Ramzy\\source\\repos\\API-Day2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F23610C2-DE50-4FA3-B0E9-F6FD73F581E9}|API-Day2\\API-Day2.csproj|c:\\users\\ahmed ramzy\\source\\repos\\api-day2\\api-day2\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F23610C2-DE50-4FA3-B0E9-F6FD73F581E9}|API-Day2\\API-Day2.csproj|solutionrelative:api-day2\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F23610C2-DE50-4FA3-B0E9-F6FD73F581E9}|API-Day2\\API-Day2.csproj|c:\\users\\ahmed ramzy\\source\\repos\\api-day2\\api-day2\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F23610C2-DE50-4FA3-B0E9-F6FD73F581E9}|API-Day2\\API-Day2.csproj|solutionrelative:api-day2\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ahmed Ramzy\\source\\repos\\API-Day2\\API-Day2\\Migrations\\20250613150835_init3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:API-Day2\\Migrations\\20250613150835_init3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F23610C2-DE50-4FA3-B0E9-F6FD73F581E9}|API-Day2\\API-Day2.csproj|c:\\users\\ahmed ramzy\\source\\repos\\api-day2\\api-day2\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F23610C2-DE50-4FA3-B0E9-F6FD73F581E9}|API-Day2\\API-Day2.csproj|solutionrelative:api-day2\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F23610C2-DE50-4FA3-B0E9-F6FD73F581E9}|API-Day2\\API-Day2.csproj|c:\\users\\ahmed ramzy\\source\\repos\\api-day2\\api-day2\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F23610C2-DE50-4FA3-B0E9-F6FD73F581E9}|API-Day2\\API-Day2.csproj|solutionrelative:api-day2\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F23610C2-DE50-4FA3-B0E9-F6FD73F581E9}|API-Day2\\API-Day2.csproj|c:\\users\\ahmed ramzy\\source\\repos\\api-day2\\api-day2\\dtos\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F23610C2-DE50-4FA3-B0E9-F6FD73F581E9}|API-Day2\\API-Day2.csproj|solutionrelative:api-day2\\dtos\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F23610C2-DE50-4FA3-B0E9-F6FD73F581E9}|API-Day2\\API-Day2.csproj|c:\\users\\ahmed ramzy\\source\\repos\\api-day2\\api-day2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F23610C2-DE50-4FA3-B0E9-F6FD73F581E9}|API-Day2\\API-Day2.csproj|solutionrelative:api-day2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,83 +27,24 @@
             {
               "$type": "Bookmark",
               "Name": "ST:323948898:0:{81164725-9a96-4ece-a4cb-440d8fd285e5}"
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Department.cs",
-              "DocumentMoniker": "C:\\Users\\Ahmed Ramzy\\source\\repos\\API-Day2\\API-Day2\\Models\\Department.cs",
-              "RelativeDocumentMoniker": "API-Day2\\Models\\Department.cs",
-              "ToolTip": "C:\\Users\\Ahmed Ramzy\\source\\repos\\API-Day2\\API-Day2\\Models\\Department.cs",
-              "RelativeToolTip": "API-Day2\\Models\\Department.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed Ramzy\\source\\repos\\API-Day2\\API-Day2\\Program.cs",
+              "RelativeDocumentMoniker": "API-Day2\\Program.cs",
+              "ToolTip": "C:\\Users\\Ahmed Ramzy\\source\\repos\\API-Day2\\API-Day2\\Program.cs",
+              "RelativeToolTip": "API-Day2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T14:21:44.84Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20250613150835_init3.cs",
-              "DocumentMoniker": "C:\\Users\\Ahmed Ramzy\\source\\repos\\API-Day2\\API-Day2\\Migrations\\20250613150835_init3.cs",
-              "RelativeDocumentMoniker": "API-Day2\\Migrations\\20250613150835_init3.cs",
-              "ToolTip": "C:\\Users\\Ahmed Ramzy\\source\\repos\\API-Day2\\API-Day2\\Migrations\\20250613150835_init3.cs",
-              "RelativeToolTip": "API-Day2\\Migrations\\20250613150835_init3.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T15:08:36.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DepartmentController.cs",
-              "DocumentMoniker": "C:\\Users\\Ahmed Ramzy\\source\\repos\\API-Day2\\API-Day2\\Controllers\\DepartmentController.cs",
-              "RelativeDocumentMoniker": "API-Day2\\Controllers\\DepartmentController.cs",
-              "ToolTip": "C:\\Users\\Ahmed Ramzy\\source\\repos\\API-Day2\\API-Day2\\Controllers\\DepartmentController.cs",
-              "RelativeToolTip": "API-Day2\\Controllers\\DepartmentController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T14:38:04.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DepartmentDto.cs",
-              "DocumentMoniker": "C:\\Users\\Ahmed Ramzy\\source\\repos\\API-Day2\\API-Day2\\DTOs\\DepartmentDto.cs",
-              "RelativeDocumentMoniker": "API-Day2\\DTOs\\DepartmentDto.cs",
-              "ToolTip": "C:\\Users\\Ahmed Ramzy\\source\\repos\\API-Day2\\API-Day2\\DTOs\\DepartmentDto.cs",
-              "RelativeToolTip": "API-Day2\\DTOs\\DepartmentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T14:36:55.752Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CourseController.cs",
-              "DocumentMoniker": "C:\\Users\\Ahmed Ramzy\\source\\repos\\API-Day2\\API-Day2\\Controllers\\CourseController.cs",
-              "RelativeDocumentMoniker": "API-Day2\\Controllers\\CourseController.cs",
-              "ToolTip": "C:\\Users\\Ahmed Ramzy\\source\\repos\\API-Day2\\API-Day2\\Controllers\\CourseController.cs",
-              "RelativeToolTip": "API-Day2\\Controllers\\CourseController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T14:38:23.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Course.cs",
-              "DocumentMoniker": "C:\\Users\\Ahmed Ramzy\\source\\repos\\API-Day2\\API-Day2\\Models\\Course.cs",
-              "RelativeDocumentMoniker": "API-Day2\\Models\\Course.cs",
-              "ToolTip": "C:\\Users\\Ahmed Ramzy\\source\\repos\\API-Day2\\API-Day2\\Models\\Course.cs",
-              "RelativeToolTip": "API-Day2\\Models\\Course.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T14:22:58.77Z",
+              "WhenOpened": "2025-06-19T07:43:59.055Z",
               "EditorCaption": ""
             }
           ]

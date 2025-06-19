@@ -1,5 +1,6 @@
 
 using API_Day2.Context;
+using API_Day2.Repository;
 using Microsoft.EntityFrameworkCore;
 
 namespace API_Day2
@@ -16,6 +17,7 @@ namespace API_Day2
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+            builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 

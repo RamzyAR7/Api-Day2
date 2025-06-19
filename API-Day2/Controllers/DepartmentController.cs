@@ -1,5 +1,6 @@
 ﻿using API_Day2.Context;
 using API_Day2.DTOs;
+using API_Day2.Repository;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,10 +11,12 @@ namespace API_Day2.Controllers
     public class DepartmentController : ControllerBase
     {
         public ApplicationDbContext _dbContext;
-        public DepartmentController(ApplicationDbContext dbContext)
+        public IDepartmentRepository _departmentRepository;
+        public DepartmentController(ApplicationDbContext dbContext, IDepartmentRepository departmentRepository)
         {
             
             _dbContext = dbContext;
+            _departmentRepository = departmentRepository;
         }
         // GET: api/Department using Customize Serialization
         [HttpGet("Customize Serialization")]
@@ -37,11 +40,7 @@ namespace API_Day2.Controllers
         [HttpGet("Using Dto")]
         public async Task<IActionResult> GetDepartments2()
         {
-            var departments = await _dbContext.Departments.Include(d => d.Courses)
-                .Select(d => new DepartmentDto { 
-                    Name = d.Name,
-                    NumberOfCourses = d.Courses.Count
-                }).ToListAsync();
+            var departments = await _departmentRepository.GetDepartmentsAsync();
 
             if (departments == null || !departments.Any())
             {
